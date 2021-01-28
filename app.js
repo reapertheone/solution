@@ -57,13 +57,8 @@ const forJS=()=>{
 
 }
 
-const doSUM=()=>{
 if(method==='SQL'){
     forSQL()
 }else{
     forJS()
 }
-
-}
-
-doSUM();
